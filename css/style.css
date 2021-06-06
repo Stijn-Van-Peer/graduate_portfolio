@@ -3317,6 +3317,12 @@ a.logo:hover{
     line-height: 1.3;
     text-align: center;
 }
+.count-number-infi{
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: center;
+}
 .count-descr{
     color: #999;
     font-size: 11px;
