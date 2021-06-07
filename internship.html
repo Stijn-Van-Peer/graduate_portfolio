@@ -182,7 +182,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 <!-- Counter Item -->
                                 <div class="col-6 col-sm-3">
                                     <div class="count-number">
-                                        90
+                                        60
                                     </div>
                                     <div class="count-descr font-alt">
                                         <i class="fa fa-briefcase"></i>
@@ -253,7 +253,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <div class="container relative">
                         
                         <h2 class="section-title font-alt mb-70 mb-sm-40">
-                            Internship summary
+                            Internship summary <br><br>
+                            <a href="images/summary.pptx" download="summary" class="btn btn-mod btn-d btn-medium btn-round">.pptx version</a>
                         </h2>
                         
                         <!-- Row -->
@@ -287,17 +288,18 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 <div class="tab-content section-text align-center">
                                     
                                     <div class="tab-pane fade active show" id="mission" role="tabpanel">                                     
-                                        I began reading whatever I could get my hands on in terms of research. I quickly realized that establishing a specific benchmark for such a project is challenging. As one might expect, there is little or no information accessible about such projects because they are rarely made public.
+                                        I began reading whatever I could get my hands on in terms of research. I quickly realized that establishing a specific benchmark for such a project is very challenging, what's good and what's bad? As one might expect, there is also little or no information accessible about such projects because they are rarely made public. I had to start from scratch and so I did.
                                     </div>
                                     
                                     <div class="tab-pane fade" id="vision" role="tabpanel">
-                                        Nam porta elementum tortor, eget tempor orci ullamcorper eget. Aliquam fermentum sem non vulputate dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla at porttitor massa.
-                                        Aliquam tortor leo, pharetra non congue sit amet pharetra non congue sit amet, bibendum sit amet enim.
+                                        I had to chose technical data (historical price data) for the reason being that there are many restrictions on fundamental data (company data). I quickly found out that prediction quality is rather bad when you work mere with price, because of the few patterns incorporated solely in ohlc-data. <br><br> The challenges I was facing had mostly to do with the kind of market I was trying to forecast, along with the way I defined my algorithm's output. I immediately started with the cryptocurrency market as a target. The reason being that if my model performs under huge volatility (crypto), it should also succeed on less volatile instruments (stocks). <br><br> Through a series of heterogeneous measurements, I transformed the original ohlc data into a more feature-rich set of data. Along with the above, converting to a categorical output rather than predicting price itself also improved my algorithm by a tremendous amount. 
     								</div>
                                     
                                     <div class="tab-pane fade" id="ideas" role="tabpanel">
-                                        Pellentesque sed vehicula velit, vitae vulputate velit. Morbi nec porta augue, et dignissim enim. Vivamus suscipit, lorem vitae rhoncus pharetra, erat nisl scelerisque magna, ut mollis dui eros eget libero. Vivamus ut ornare tellus.
-                                        Aliquam tortor leo, pharetra pharetra non congue sit amet non congue sit amet, bibendum sit amet enim.
+                                        You can only judge the quality of a strategy when you have backtested it extensively. It is for this reason that I compared the performance of my algorithm against a strong baseline. <br><br> As a baseline, I chose a random signal generator, which returns either ‘hold’ or ‘buy’ regardless of market conditions. 
+At first glance, this sounds like a bad baseline, but it actually isn't. If by chance one had bought a few times during the last few months, due to the exceptional market conditions one had made a profit without having any idea of what they were actually doing. <br><br> Despite the market conditions, our model even managed to beat the baseline by a fair amount.
+ <br><br>
+                                        
     								</div>
                                     
                                 </div>
@@ -753,19 +755,11 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                 <div class="container">
                     
                     <!-- Footer Logo -->
-                    <div class="local-scroll mb-30 wow fadeInUp" data-wow-duration="1.5s">
-                        <a href="#top"><img src="images/logo-footer.png" width="78" height="36" alt="Company logo" /><span class="sr-only">Scroll to the top of the page</span></a>
-                    </div>
+                    
                     <!-- End Footer Logo -->
                     
                     <!-- Social Links -->
-                    <div class="footer-social-links mb-110 mb-xs-60">
-                        <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i> <span class="sr-only">Facebook profile</span></a>
-                        <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i> <span class="sr-only">Twitter profile</span></a>
-                        <a href="#" title="Behance" target="_blank"><i class="fa fa-behance"></i> <span class="sr-only">Behance profile</span></a>
-                        <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i> <span class="sr-only">LinkedIn+ profile</span></a>
-                        <a href="#" title="Pinterest" target="_blank"><i class="fa fa-pinterest"></i> <span class="sr-only">Pinterest profile</span></a>
-                    </div>
+                    
                     <!-- End Social Links -->
                     
                     <!-- Footer Text -->
@@ -773,13 +767,26 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                         
                         <!-- Copyright -->
                         <div class="footer-copy font-alt">
-                            <a href="http://themeforest.net/user/theme-guru/portfolio" target="_blank">© Rhythm 2021</a>.
+                            <a href="http://themeforest.net/user/theme-guru/portfolio" target="_blank">Handcrafted by me © twentytwenty-one</a>
                         </div>
+                        <br>
                         <!-- End Copyright -->
+                        <div class="footer-social-links mb-110 mb-xs-60">
+                        <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i> <span class="sr-only">LinkedIn+ profile</span></a>
+                            <br>
+                            <div class="local-scroll mb-30 wow fadeInUp" data-wow-duration="1.5s">
+                                <br>
+                        <p class="footer-made">Made possible by</p>
+                        <img src="images/brainjar.png" width="85" height="36" alt="Company logo" />    
+                        <img src="images/thomas.png" width="78" height="36" alt="Company logo" />
+                    </div>
+                    </div>
                         
+<!--
                         <div class="footer-made">
                             Made with love for great people.
                         </div>
+-->
                         
                     </div>
                     <!-- End Footer Text --> 
